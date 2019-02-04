@@ -30,8 +30,12 @@ facebook: ghost # replace by your username
 disqus: False
 disqus_shortname: jekyller # replace with your disqus username
 
-# Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+# _config.yml
+algolia:
+   application_id: CVEU7164ZO
+   index_name: smibi #YOUR_INDEX_NAME
+   search_only_api_key: 981d7389ed75bcdf393ee65472d6f8a2 #YOUR_SEARCH_ONLY_API_KEY
+
 
 # Permalinks
 permalink: /:title
