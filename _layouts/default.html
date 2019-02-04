@@ -81,9 +81,8 @@
                 {% if site.logo %}
                     <img class="subscribe-overlay-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}" />
                 {% endif %}
-                <h1 class="subscribe-overlay-title">Subscribe to {{ site.title }}</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                {% include subscribe-form.html placeholder="youremail@example.com" %}
+                <h1 class="subscribe-overlay-title">Search through {{ site.title }}</h1>
+              <div id="search-searchbar"></div>
             </div>
         </div>
     {% endif %}
